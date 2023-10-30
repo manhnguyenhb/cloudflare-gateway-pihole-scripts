@@ -19,7 +19,7 @@ jobs:
         cd cloudflare-gateway-pihole-scripts
      
     - name: Keep alive
-      uses:gautamkrishnar/keepalive-workflow@v1
+      uses: gautamkrishnar/keepalive-workflow@v1
 
     - name: Install npm dependencies
       run: npm ci
